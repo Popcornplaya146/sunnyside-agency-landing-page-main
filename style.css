@@ -251,17 +251,15 @@ nav li:hover{
 }
 
 .portfolio {
-  display: flex;
-  flex-direction:row;
-  flex-wrap: wrap;
-  align-items: center;
-  width: auto;
-  
+  display: grid;
+  grid-template-rows:1fr 1fr;
+  grid-template-columns:1fr 1fr;
 }
 
 .portfolio img{
   display: block;
-  width: 206px;
+  width: 100%;
+  height:auto;
 }
 
 footer {
