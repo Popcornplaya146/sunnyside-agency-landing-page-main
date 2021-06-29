@@ -69,7 +69,7 @@ nav{
   list-style-type: none;
   justify-content: space-around;
   align-content: center;
-  background: white;
+  background: hsl(0, 0%, 100%);
   padding:10px;
   transform: translateY(-500px);
   transition: all ease-in-out 500ms;
@@ -81,7 +81,7 @@ nav{
   content: "";
   width: 0;
   height:0;
-  background-color: transparent;
+  background-color: hsl(0, 0%, 100%);
   
   border-bottom: 25px solid white;
   border-left: 25px solid transparent;
