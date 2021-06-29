@@ -76,18 +76,6 @@ nav{
   z-index:1;
 }
 
-#menu::before{
-  position: absolute;
-  content: "";
-  width: 0;
-  height:0;
-  background-color: hsl(0, 0%, 100%);
-  
-  border-bottom: 25px solid white;
-  border-left: 25px solid transparent;
-  top: -20px;
-  right: 0;
-}
 
 #menu.active{
   transform: translateY(0);
